@@ -1,0 +1,30 @@
+
+
+Reference
+Number     Year  Variable Description                                      Question Name              
+--------------------------------------------------------------------------------------------------------
+R00001.00  1997  PUBID, YOUTH CASE IDENTIFICATION CODE                     PUBID                      
+R03206.00  1997  HOW IS RS GENERAL HEALTH?                                 YHEA-100                   
+R03225.00  1997  HEIGHT OF R IN FEET                                       YHEA-2000                  
+R03226.00  1997  HEIGHT OF R IN INCHES                                     YHEA-2100                  
+R03227.00  1997  WEIGHT OF R - POUNDS                                      YHEA-2200                  
+R03593.00  1997  R DESCRIBE WEIGHT                                         YSAQ-373                   
+R03594.00  1997  WHAT R DO ABOUT WEIGHT                                    YSAQ-374                   
+R05363.00  1997  KEY!SEX, RS GENDER (SYMBOL)                               KEY!SEX                    
+R05364.01  1997  KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)               KEY!BDATE_M                
+R05364.02  1997  KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)               KEY!BDATE_Y                
+R06079.00  1997  HOW IS PRS GENERAL HEALTH                                 P4-001                     
+R06080.00  1997  PR HAVE LONG-TERM HEALTH PROBLEM LIMITING EMPLOYMENT?     P4-002                     
+R06081.00  1997  PR HAVE HEALTH PROBLEM SINCE OLDEST CHILD BORN?           P4-003                     
+R06082.00  1997  HEIGHT OF PR IN FEET                                      P4-004                     
+R06083.00  1997  HEIGHT OF PR IN INCHES                                    P4-005                     
+R06084.00  1997  WEIGHT OF PR                                              P4-006                     
+R06812.00  1997  HOW IS RS HEALTH?                                         PC9-001                    
+R12102.00  1997  RS MARITAL/COHABIT STATUS                                 CV_MARSTAT                 
+R12103.00  1997  RS COLLAPSED MARITAL STATUS                               CV_MARSTAT_COLLAPSED       
+R12358.00  1997  SAMPLE TYPE.  CROSS-SECTIONAL OR OVERSAMPLE               CV_SAMPLE_TYPE             
+R14826.00  1997  KEY!RACE_ETHNICITY, COMBINED RACE AND ETHNICITY (SYMBOL)  KEY!RACE_ETHNICITY         
+Z90337.00  XRND  HIGHEST SAT MATH SCORE 2007                               CVC_SAT_MATH_SCORE_2007    
+Z90338.00  XRND  ROUND REPORTED HIGHEST SAT MATH SCORE 2007                CVC_SAT_MATH_RND_2007      
+Z90339.00  XRND  HIGHEST SAT VERBAL SCORE 2007                             CVC_SAT_VERBAL_SCORE_2007  
+Z90340.00  XRND  ROUND REPORTED HIGHEST SAT VERBAL SCORE 2007              CVC_SAT_VERBAL_RND_2007    

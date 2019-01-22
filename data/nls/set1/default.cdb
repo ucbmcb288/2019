@@ -1,0 +1,745 @@
+R00001.00    [PUBID]                                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PUBID, YOUTH CASE IDENTIFICATION CODE
+ 
+COMMENT: YOUTH CASE IDENTIFICATION CODE
+ 
+       0           0
+     998           1 TO 999
+     999        1000 TO 1999
+     997        2000 TO 2999
+     996        3000 TO 3999
+     998        4000 TO 4999
+     996        5000 TO 5999
+     994        6000 TO 6999
+     994        7000 TO 7999
+     989        8000 TO 8999
+      23        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           9022        Mean:              4504.3
+ 
+Hard Minimum: [0]  Hard Maximum: [99999999]
+ 
+Lead In: R72976.00[Default]
+Default Next Question: R05363.00
+--------------------------------------------------------------------------------
+R03206.00    [YHEA-100]                                     Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             HOW IS RS GENERAL HEALTH?
+ 
+Now, I'd like to ask you some questions about your general state of health.
+In general, how is your health?
+ 
+UNIVERSE: All
+ 
+    3477       1 Excellent
+    3025       2 Very good
+    2020       3 Good
+     430       4 Fair
+      27       5 Poor
+  -------
+    8979
+ 
+Refusal(-1)            0
+Don't Know(-2)         3
+Invalid Skip(-3)       2
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Lead In: R03005.00[Default] R03205.00[Default]  R03004.00[0:0] R03121.00[1:1]
+Default Next Question: R03207.00
+--------------------------------------------------------------------------------
+R03225.00    [YHEA-2000]                                    Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             HEIGHT OF R IN FEET
+ 
+Can you tell me approximately what your height is?
+ 
+(INTERVIEWER: ENTER HEIGHT IN FEET AND ENTER HEIGHT IN INCHES ON
+THE NEXT SCREEN.
+ 
+PRESS <F5> FOR "REFUSE", <F6> FOR "DON'T KNOW".)
+ 
+UNIVERSE: All
+ 
+       0           0
+       1           1
+       1           2
+       3           3
+     610           4
+    7562           5
+     611           6
+       1           7
+       1           8
+       0           9
+  -------
+    8790
+ 
+Refusal(-1)            3
+Don't Know(-2)       176
+Invalid Skip(-3)      15
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              8        Mean:                   5
+ 
+Hard Minimum: [1]  Hard Maximum: [8]
+Soft Minimum: [2]  Soft Maximum: [6]
+ 
+Lead In: R03223.00[Default] R03224.00[Default]
+Default Next Question: R03226.00
+--------------------------------------------------------------------------------
+R03226.00    [YHEA-2100]                                    Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             HEIGHT OF R IN INCHES
+ 
+INTERVIEWER: ENTER INCHES OF R'S HEIGHT.
+ 
+UNIVERSE: All
+ 
+     787           0
+     680           1
+     844           2
+     945           3
+     970           4
+     760           5
+     939           6
+     675           7
+     646           8
+     518           9
+     442          10
+     557          11
+       0          12
+  -------
+    8763
+ 
+Refusal(-1)            5
+Don't Know(-2)       201
+Invalid Skip(-3)      15
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:             11        Mean:                4.98
+ 
+Hard Minimum: [0]  Hard Maximum: [11]
+ 
+Lead In: R03225.00[Default]
+Default Next Question: R03227.00
+--------------------------------------------------------------------------------
+R03227.00    [YHEA-2200]                                    Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             WEIGHT OF R - POUNDS
+ 
+Can you tell me approximately what your weight is?
+ 
+(INTERVIEWER: PRESS <F5> FOR "REFUSE", <F6> FOR "DON'T KNOW".)
+ 
+UNIVERSE: All
+ 
+       0           0
+      14           1 TO 49
+    1077          50 TO 99
+    5341         100 TO 149
+    1865         150 TO 199
+     349         200 TO 249
+      57         250 TO 299
+       5         300 TO 349
+       1         350 TO 399
+       0         400 TO 449
+       0         450 TO 499
+       0         500 TO 999999: 500+
+  -------
+    8709
+ 
+Refusal(-1)           54
+Don't Know(-2)       205
+Invalid Skip(-3)      16
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              4        Max:            390        Mean:              132.26
+ 
+Hard Minimum: [1]  Hard Maximum: [999]
+ 
+Lead In: R03226.00[Default]
+Default Next Question: R03228.00
+--------------------------------------------------------------------------------
+R03593.00    [YSAQ-373]                                     Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             R DESCRIBE WEIGHT
+ 
+How do you describe your weight?
+ 
+UNIVERSE: All
+ 
+     296       1 VERY UNDERWEIGHT
+    1120       2 SLIGHTLY UNDERWEIGHT
+    5122       3 ABOUT THE RIGHT WEIGHT
+    2041       4 SLIGHTLY OVERWEIGHT
+     382       5 VERY OVERWEIGHT
+  -------
+    8961
+ 
+Refusal(-1)           12
+Don't Know(-2)         9
+Invalid Skip(-3)       2
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Lead In: R03589.00[Default] R03592.00[Default]  R03591.00[0:0]
+Default Next Question: R03594.00
+--------------------------------------------------------------------------------
+R03594.00    [YSAQ-374]                                     Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             WHAT R DO ABOUT WEIGHT
+ 
+Which of the following are you trying to do now about your weight?
+ 
+UNIVERSE: All
+ 
+    3389       1 LOSE WEIGHT
+    1520       2 GAIN WEIGHT
+    2150       3 STAY THE SAME WEIGHT
+    1906       4 NOT TRYING TO DO ANYTHING ABOUT MY WEIGHT
+  -------
+    8965
+ 
+Refusal(-1)           10
+Don't Know(-2)         6
+Invalid Skip(-3)       2
+TOTAL =========>    8983   VALID SKIP(-4)       1     NON-INTERVIEW(-5)       0
+ 
+Lead In: R03593.00[Default]
+Default Next Question: R03595.00
+--------------------------------------------------------------------------------
+R05363.00    [KEY!SEX]                                      Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!SEX, RS GENDER (SYMBOL)
+ 
+COMMENT: Gender of Youth
+ 
+    4599       1 Male
+    4385       2 Female
+       0       0 No Information
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Lead In: R00001.00[Default]
+Default Next Question: R05364.00
+--------------------------------------------------------------------------------
+R05364.01    [KEY!BDATE_M]                                  Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)
+ 
+COMMENT: Birthdate of Youth
+ 
+     816           1: January
+     693           2: February
+     760           3: March
+     659           4: April
+     689           5: May
+     720           6: June
+     762           7: July
+     782           8: August
+     839           9: September
+     765          10: October
+     763          11: November
+     736          12: December
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             12        Mean:                6.56
+ 
+Earliest (NonMissing): JANUARY/1980
+Latest   (NonMissing): DECEMBER/1984
+ 
+Hard Minimum: [01/01/1880]  Hard Maximum: [the current date]
+ 
+Lead In: R05363.00[Default]
+Default Next Question: R05366.00
+--------------------------------------------------------------------------------
+R05364.02    [KEY!BDATE_Y]                                  Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)
+ 
+COMMENT: Birthdate of Youth
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:           1980        Max:           1984        Mean:             1982.01
+ 
+Earliest (NonMissing): JANUARY/1980
+Latest   (NonMissing): DECEMBER/1984
+ 
+Hard Minimum: [01/01/1880]  Hard Maximum: [the current date]
+ 
+Lead In: R05363.00[Default]
+Default Next Question: R05366.00
+--------------------------------------------------------------------------------
+R06079.00    [P4-001]                                       Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             HOW IS PRS GENERAL HEALTH
+ 
+Now I'd like to ask you some questions about your general state of health.
+ 
+In general, how is your health? Is it ...
+ 
+    2200       1 Excellent
+    2424       2 Very good
+    2133       3 Good
+     910       4 Fair
+     269       5 Poor
+  -------
+    7936
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7936   VALID SKIP(-4)    1048     NON-INTERVIEW(-5)       0
+ 
+Lead In: R06069.00[Default] R06074.00[Default] R06078.00[Default]
+Default Next Question: R06080.00
+--------------------------------------------------------------------------------
+R06080.00    [P4-002]                                       Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PR HAVE LONG-TERM HEALTH PROBLEM LIMITING EMPLOYMENT?
+ 
+Do you have any long-term health problem or condition that limits the type or 
+amount of employment you can accept?
+ 
+    1277       1 Yes
+    6655       0 No
+  -------
+    7932
+ 
+Refusal(-1)            0
+Don't Know(-2)         4
+TOTAL =========>    7936   VALID SKIP(-4)    1048     NON-INTERVIEW(-5)       0
+ 
+Lead In: R06079.00[Default]
+Default Next Question: R06081.00
+--------------------------------------------------------------------------------
+R06081.00    [P4-003]                                       Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PR HAVE HEALTH PROBLEM SINCE OLDEST CHILD BORN?
+ 
+Do you have, or since [your eldest child]'s birth, have you ever had, any 
+serious long-standing medical condition(s), such as severe heart problems, 
+cancer, or a potentially life-threatening disease?
+ 
+     744       1 Yes
+    7187       0 No
+  -------
+    7931
+ 
+Refusal(-1)            1
+Don't Know(-2)         4
+TOTAL =========>    7936   VALID SKIP(-4)    1048     NON-INTERVIEW(-5)       0
+ 
+Lead In: R06080.00[Default]
+Default Next Question: R06082.00
+--------------------------------------------------------------------------------
+R06082.00    [P4-004]                                       Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             HEIGHT OF PR IN FEET
+ 
+Can you tell me approximately what your height is?
+ 
+(INTERVIEWER: ENTER NUMBER OF FEET IN THIS QUESTION. ENTER INCHES
+IN THE NEXT QUESTION.
+ 
+IF THE RESPONDENT HESITATES BECAUSE HE/SHE IS
+UNSURE, ASK FOR BEST ESTIMATE. DO NOT TRY TO
+ESTIMATE YOURSELF.)
+ 
+       0           0
+       0           1
+       0           2
+       1           3
+     226           4
+    7324           5
+     348           6
+       0           7
+  -------
+    7899
+ 
+Refusal(-1)            5
+Don't Know(-2)        32
+TOTAL =========>    7936   VALID SKIP(-4)    1048     NON-INTERVIEW(-5)       0
+ 
+Min:              3        Max:              6        Mean:                5.02
+ 
+Hard Minimum: [1]  Hard Maximum: [8]
+Soft Minimum: [4]  Soft Maximum: [7]
+ 
+Lead In: R06081.00[Default]
+Default Next Question: R06083.00
+--------------------------------------------------------------------------------
+R06083.00    [P4-005]                                       Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             HEIGHT OF PR IN INCHES
+ 
+INTERVIEWER: ENTER INCHES OF R'S HEIGHT.
+ 
+     563           0
+     515           1
+     934           2
+     882           3
+    1180           4
+     911           5
+     954           6
+     646           7
+     396           8
+     318           9
+     244          10
+     342          11
+       0          12
+  -------
+    7885
+ 
+Refusal(-1)            6
+Don't Know(-2)        45
+TOTAL =========>    7936   VALID SKIP(-4)    1048     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:             11        Mean:                4.66
+ 
+Hard Minimum: [0]  Hard Maximum: [11]
+ 
+Lead In: R06082.00[Default]
+Default Next Question: R06084.00
+--------------------------------------------------------------------------------
+R06084.00    [P4-006]                                       Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             WEIGHT OF PR
+ 
+Can you tell me approximately what your weight is?
+ 
+(INTERVIEWER: ENTER WEIGHT IN POUNDS (LBS.).
+ 
+IF THE RESPONDENT HESITATES BECAUSE HE/SHE IS
+UNSURE, ASK FOR BEST ESTIMATE. DO NOT TRY TO
+ESTIMATE YOURSELF.)
+ 
+       3           0
+       0           1 TO 24
+       0          25 TO 49
+       1          50 TO 74
+      33          75 TO 99
+     965         100 TO 124
+    2138         125 TO 149
+    1855         150 TO 174
+    1223         175 TO 199
+     706         200 TO 224
+     317         225 TO 249
+     308         250 TO 99999999: 250+
+  -------
+    7549
+ 
+Refusal(-1)          276
+Don't Know(-2)       111
+TOTAL =========>    7936   VALID SKIP(-4)    1048     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:            420        Mean:              163.44
+ 
+Hard Minimum: [0]  Hard Maximum: [700]
+Soft Minimum: [50]  Soft Maximum: [400]
+ 
+Lead In: R06083.00[Default]
+Default Next Question: R06092.00
+--------------------------------------------------------------------------------
+R06812.00    [PC9-001]                                      Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             HOW IS RS HEALTH?
+ 
+Now I'd like to ask you some questions about [this youth]'s general state of 
+health.
+ 
+In general, how is [his/her] health?
+ 
+    4049       1 Excellent
+    2208       2 Very good
+    1382       3 Good
+     229       4 Fair
+      20       5 Poor
+  -------
+    7888
+ 
+Refusal(-1)            2
+Don't Know(-2)         2
+TOTAL =========>    7892   VALID SKIP(-4)    1092     NON-INTERVIEW(-5)       0
+ 
+Lead In: R06753.00[Default] R06791.00[Default] R06799.00[Default] 
+         R06810.00[Default] R06811.00[Default]  R06496.00[99:99] R06809.00[1:1]
+Default Next Question: R06813.00
+--------------------------------------------------------------------------------
+R12102.00    [CV_MARSTAT]                                   Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             RS MARITAL/COHABIT STATUS
+ 
+Marital or cohabitation status as of the survey date.
+ 
+      14       1 Never married, cohabiting
+    1654       2 Never married, not cohabiting
+       3       3 Married, spouse present
+       0       4 Married, spouse absent
+       0       5 Separated, cohabiting
+       1       6 Separated, not cohabiting
+       0       7 Divorced, cohabiting
+       0       8 Divorced, not cohabiting
+       0       9 Widowed, cohabiting
+       0      10 Widowed, not cohabiting
+  -------
+    1672
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    1672   VALID SKIP(-4)    7312     NON-INTERVIEW(-5)       0
+ 
+Lead In: R12101.00[Default]
+Default Next Question: R12103.00
+--------------------------------------------------------------------------------
+R12103.00    [CV_MARSTAT_COLLAPSED]                         Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             RS COLLAPSED MARITAL STATUS
+ 
+Collapsed marital status as of the survey date.
+ 
+    1668       0 Never married
+       3       1 Married
+       1       2 Separated
+       0       3 Divorced
+       0       4 Widowed
+  -------
+    1672
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    1672   VALID SKIP(-4)    7312     NON-INTERVIEW(-5)       0
+ 
+Lead In: R12102.00[Default]
+Default Next Question: R12104.00
+--------------------------------------------------------------------------------
+R12358.00    [CV_SAMPLE_TYPE]                               Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             SAMPLE TYPE.  CROSS-SECTIONAL OR OVERSAMPLE
+ 
+Sample type: Is the respondent a member of the cross-sectional sample or the 
+oversample?
+ 
+    6748       1 Cross-sectional
+    2236       0 Oversample
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Lead In: R12357.00[Default]
+Default Next Question: R12359.00
+--------------------------------------------------------------------------------
+R14826.00    [KEY!RACE_ETHNICITY]                           Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!RACE_ETHNICITY, COMBINED RACE AND ETHNICITY (SYMBOL)
+ 
+COMMENT: Combined race - ethnicity variable
+ 
+    2335       1 Black
+    1901       2 Hispanic
+      83       3 Mixed Race (Non-Hispanic)
+    4665       4 Non-Black / Non-Hispanic
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Lead In: R05387.00[Default]
+Default Next Question: R05389.00
+--------------------------------------------------------------------------------
+Z90337.00    [CVC_SAT_MATH_SCORE_2007]                      Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST SAT MATH SCORE 2007
+ 
+CUMULATIVE VARIABLE: Highest SAT MATH score. This variable is created for all 
+respondents regardless of interview status in the latest round the variable was 
+created (round 11); CVC_SAT_MATH_RND_2007 provides the latest round from which 
+the respondent's highest score is determined.that information was used to create
+this variable.
+ 
+      97       1 200 - 300
+     229       2 301 - 400
+     666       3 401 - 500
+     806       4 501 - 600
+     464       5 601 - 700
+     204       6 701 - 800
+       0       0 Have not yet received the scores
+  -------
+    2466
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     954
+TOTAL =========>    3420   VALID SKIP(-4)    5564     NON-INTERVIEW(-5)       0
+ 
+Lead In: Z90323.00[Default]
+Default Next Question: Z90338.00
+--------------------------------------------------------------------------------
+Z90338.00    [CVC_SAT_MATH_RND_2007]                        Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             ROUND REPORTED HIGHEST SAT MATH SCORE 2007
+ 
+CUMULATIVE VARIABLE: Round of R's highest SAT MATH score. This variable is 
+created for all respondents regardless of the latest round (round 11) interview 
+status.
+ 
+       3       1 Round 1
+     778       2 Round 2
+     752       3 Round 3
+     766       4 Round 4
+     640       5 Round 5
+     346       6 Round 6
+     110       7 Round 7
+       4       8 Round 8
+       8       9 Round 9
+       8      10 Round 10
+       5      11 Round 11
+       0      12 Round 12
+       0      13 Round 13
+       0      14 Round 14
+       0      15 Round 15
+       0      16 Round 16
+       0      17 Round 17
+  -------
+    3420
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    3420   VALID SKIP(-4)    5564     NON-INTERVIEW(-5)       0
+ 
+Lead In: Z90337.00[Default]
+Default Next Question: Z90339.00
+--------------------------------------------------------------------------------
+Z90339.00    [CVC_SAT_VERBAL_SCORE_2007]                    Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST SAT VERBAL SCORE 2007
+ 
+CUMULATIVE VARIABLE: Highest SAT VERBAL score. This variable is created for all 
+respondents regardless of interview status in the latest round the variable was 
+created (round 11); CVC_SAT_VERBAL_RND_2007 provides the latest round from which
+the respondent's highest score is determined.that information was used to create
+this variable.
+ 
+      69       1 200 - 300
+     226       2 301 - 400
+     660       3 401 - 500
+     832       4 501 - 600
+     483       5 601 - 700
+     158       6 701 - 800
+       0       0 Have not yet received the scores
+  -------
+    2428
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     992
+TOTAL =========>    3420   VALID SKIP(-4)    5564     NON-INTERVIEW(-5)       0
+ 
+Lead In: Z90338.00[Default]
+Default Next Question: Z90340.00
+--------------------------------------------------------------------------------
+Z90340.00    [CVC_SAT_VERBAL_RND_2007]                      Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             ROUND REPORTED HIGHEST SAT VERBAL SCORE 2007
+ 
+CUMULATIVE VARIABLE: Round of R's highest SAT VERBAL score. This variable is 
+created for all respondents regardless of the latest round (round 11) interview 
+status.
+ 
+       4       1 Round 1
+     761       2 Round 2
+     760       3 Round 3
+     766       4 Round 4
+     640       5 Round 5
+     350       6 Round 6
+     114       7 Round 7
+       4       8 Round 8
+       8       9 Round 9
+       8      10 Round 10
+       5      11 Round 11
+       0      12 Round 12
+       0      13 Round 13
+       0      14 Round 14
+       0      15 Round 15
+       0      16 Round 16
+       0      17 Round 17
+  -------
+    3420
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    3420   VALID SKIP(-4)    5564     NON-INTERVIEW(-5)       0
+ 
+Lead In: Z90339.00[Default]
+Default Next Question: Z90341.00
